@@ -1,0 +1,49 @@
+html, body{
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+}
+
+body{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(238, 238, 238, 0.911);
+}
+
+.main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+ul{
+    height: 100%;
+    
+    width: 80%;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    list-style: none;
+    padding: 0;
+}
+
+hr {
+    border: 1px solid;
+    color: black;
+    width: 100%;
+}
+
